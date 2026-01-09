@@ -1,13 +1,14 @@
 {
   "name": "com.wooshii.hierarchydecorator",
-  "displayName": "HierarchyDecorator",
+  "displayName": "HierarchyDecorator (mgranddev fork)",
   "version": "0.10.1",
   "unity": "2018.4",
-  "description": "HierarchyDecorator is an extension for the Unity Hierarchy enhancing it's utility.",
+  "description": "(mgranddev fork) HierarchyDecorator is an extension for the Unity Hierarchy enhancing it's utility. Original repository: https://github.com/WooshiiDev/HierarchyDecorator",
   "keywords": [
     "hierarchy",
     "editor"
   ],
   "category": "Editor",
-  "dependencies": {}
+  "dependencies": {},
+  "license": "MIT"
 }
