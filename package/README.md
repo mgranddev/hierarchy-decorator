@@ -1,7 +1,7 @@
 <h1 align="center">  
  <img width="824" alt="HierarchyDecoratorNew" src="https://user-images.githubusercontent.com/31889435/226486126-009081e1-44de-465c-8ff7-5641870fdcae.png">
  
- Hierarchy Decorator
+ Hierarchy Decorator (mgranddev fork)
 </h1>
 
 <h4 align="center"> Unity Editor plugin giving the Hierarchy a lick of paint.<br><br>
@@ -12,7 +12,7 @@
 <p align="center">
  <a href="https://unity3d.com/get-unity/download">
  <img src="https://img.shields.io/badge/unity-2018.4%2B-blue.svg" alt="Unity Download Link">
- <a href="https://github.com/WooshiiDev/HierarchyDecorator/blob/master/LICENSE">
+ <a href="https://github.com/mgranddev/hierarchy-decorator/blob/master/LICENSE.md">
  <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License MIT">
 </p>
   
@@ -27,6 +27,9 @@
 
 ## About
 
+> [!IMPORTANT]
+> This is a separate fork. The original repository can be found here: https://github.com/WooshiiDev/HierarchyDecorator
+
 Hierarchy Decorator is an extension for Unity 2018.4 and higher that extends Unity's hierarchy and takes it to the next level. With headers, component information and other features, it transforms the window into more than a plain list of objects. This can turn scene structures easier to read, understand and provide information on what is going on.
 
 Everything is optional, and can be modified to the requirements of the project.
@@ -37,48 +40,32 @@ Everything is optional, and can be modified to the requirements of the project.
 </p>
 
 ## Installation
-<p align="center">
-  <a href="https://github.com/WooshiiDev/HierarchyDecorator/releases">Releases</a> • <a href="https://github.com/WooshiiDev/HierarchyDecorator/releases/download/v0.10.1/HierarchyDecorator.v0.10.1.unitypackage">Unity Package</a> • <a href="https://github.com/WooshiiDev/HierarchyDecorator/archive/master.zip">Zip</a> 
-</p>
-  
 
-HierarchyDecorator can also be installed directly through the git url
+HierarchyDecorator can be installed directly through the git url
 ```
-https://github.com/WooshiiDev/HierarchyDecorator.git
-```
-
-You can also install it via [upm](https://openupm.com/)
-
-```
-openupm add com.wooshii.hierarchydecorator
+https://github.com/mgranddev/hierarchy-decorator.git?path=/package
 ```
 
 You can also install this via git by adding the following to your **manifest.json**
 ```
-"com.wooshii.hierarchydecorator" : "https://github.com/WooshiiDev/HierarchyDecorator.git"
+"dev.mgrand.hierarchy-decorator" : "https://github.com/mgranddev/hierarchy-decorator.git?path=/package"
 ```
+
+You can also install from the the GitHub Package Registry: https://github.com/mgranddev/hierarchy-decorator/pkgs/npm/dev.mgrand.hierarchy-decorator However, this is an advanced installation process.
+
+For details on how to install a UPM package from the GitHub Package Registry, see this discussion: https://discussions.unity.com/t/using-github-packages-registry-with-unity-package-manager/784073 The relevant section starts at step #4.
 
 ## Features
 
-### Current
-
-| Feature                    | Hierarchy Decorator  | Other Hierachy Extensions |
+| Feature                    | Hierarchy Decorator  | Other Hierarchy Extensions |
 | -------------------------- | :----------------: | :-------------:   |
 | Hierarchy Headers/Styles   |         ✔️         |        ✔️        |
 | Tag/Layer Selector         |         ✔️         |        ✔️        |
 | Breadcrumbs                |         ✔️         |        ✔️        |
 | Component Icons            |         ✔️         |        ❌        |
 
-### Planned 
+For further details, including the original developer's planned features, please see the original repository: https://github.com/WooshiiDev/HierarchyDecorator
 
-| Feature                    | Hierarchy Decorator  | Other Hierachy Extensions |
-| -------------------------- | :----------------: | :-------------:   |
-| GameObject Icons           |         Planned     |        ✔️        |
-| Folders                    |         Planned     |         ✔️       |
-| Script Error/Warning Popup |         Planned     |        ❌       |
-| Editor Flags Selector      |         Planned     |        ❌       |
-| <a href="https://github.com/WooshiiDev/HierarchyDecorator/issues/25">Team/Individual Settings Mode</a>   |         Planned     |        ❌        |
-  
 ## Settings
   
 <p align="center">
@@ -222,21 +209,15 @@ Scripts can also be dragged in from the project view and will be added to the gr
 </details>
 
 ## Support
-Please submit any queries, bugs or issues, to the [Issues](https://github.com/WooshiiDev/HierarchyDecorator/issues) page on this repository. All feedback is appreciated as it not just helps myself find problems I didn't otherwise see, but also helps improves Hierarchy Decorator as a whole.
 
-A GitHub Project [Board](https://github.com/users/WooshiiDev/projects/1) for this also exists showing current development goals and future features.
+Functional changes to this fork will be minimal. Patches and new features will be merged from the original repository.
 
-Reach out to me or see my other work through:
+If you are encountering an issue, please verify whether the issue exists in the original repository: https://github.com/WooshiiDev/HierarchyDecorator
 
- - Website: https://wooshii.dev/
- - Email: wooshiidev@gmail.com;
+If the issue exists only in this fork, please create an issue here: https://github.com/mgranddev/hierarchy-decorator/issues
 
 ## Donate
-HierarchyDecorator will be and always has been developed in my free time, and there are many more features I'd like to include. If you would to support me, you can do so below:
 
-[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/Wooshii?locale.x=en_GB)
-<p href="https://ko-fi.com/L3L026UOE"><img src="https://ko-fi.com/img/githubbutton_sm.svg">
-
-Development will be continued with this and will forever stay public and free.
+This is a fork of HierarchyDecorator, originally created by Damian Slocombe ([@WooshiiDev](https://github.com/WooshiiDev)). If you find this tool useful, please consider supporting the original author: https://github.com/WooshiiDev/HierarchyDecorator/blob/master/README.md#support
 
 Copyright (c) 2020-2025 Damian Slocombe
