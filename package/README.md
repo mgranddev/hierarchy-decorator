@@ -43,12 +43,12 @@ Everything is optional, and can be modified to the requirements of the project.
 
 HierarchyDecorator can be installed directly through the git url
 ```
-https://github.com/mgranddev/hierarchy-decorator.git?path=/package
+https://github.com/mgranddev/hierarchy-decorator.git?path=/package#v0.1.0
 ```
 
 You can also install this via git by adding the following to your **manifest.json**
 ```
-"dev.mgrand.hierarchy-decorator" : "https://github.com/mgranddev/hierarchy-decorator.git?path=/package"
+"dev.mgrand.hierarchy-decorator" : "https://github.com/mgranddev/hierarchy-decorator.git?path=/package#v0.1.0"
 ```
 
 You can also install from the the GitHub Package Registry: https://github.com/mgranddev/hierarchy-decorator/pkgs/npm/dev.mgrand.hierarchy-decorator However, this is an advanced installation process.
