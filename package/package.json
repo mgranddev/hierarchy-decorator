@@ -1,5 +1,5 @@
 {
-  "name": "com.wooshii.hierarchydecorator",
+  "name": "dev.mgrand.hierarchy-decorator",
   "displayName": "HierarchyDecorator (mgranddev fork)",
   "version": "0.10.1",
   "unity": "2018.4",
@@ -10,5 +10,12 @@
   ],
   "category": "Editor",
   "dependencies": {},
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@mgranddev"
+  },
+  "repository": {
+    "url": "git@github.com:mgranddev/hierarchy-decorator.git",
+    "type": "git"
+  }
 }
