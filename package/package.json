@@ -1,7 +1,7 @@
 {
   "name": "dev.mgrand.hierarchy-decorator",
   "displayName": "HierarchyDecorator (mgranddev fork)",
-  "version": "0.10.1",
+  "version": "0.1.0",
   "unity": "2018.4",
   "description": "(mgranddev fork) HierarchyDecorator is an extension for the Unity Hierarchy enhancing it's utility. Original repository: https://github.com/WooshiiDev/HierarchyDecorator",
   "keywords": [
