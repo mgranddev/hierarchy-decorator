@@ -1,6 +1,6 @@
 <h1 align="center">  
- <img width="824" alt="HierarchyDecoratorNew" src="https://user-images.githubusercontent.com/31889435/226486126-009081e1-44de-465c-8ff7-5641870fdcae.png">
- 
+ <img width="824" alt="HierarchyDecoratorNew" src="Documentation~/images/226486126-009081e1-44de-465c-8ff7-5641870fdcae.png">
+
  Hierarchy Decorator (mgranddev fork)
 </h1>
 
@@ -35,8 +35,8 @@ Hierarchy Decorator is an extension for Unity 2018.4 and higher that extends Uni
 Everything is optional, and can be modified to the requirements of the project.
 
 <p align="center">
-<img width="372" alt="Unity_k2yhUSLugm" src="https://user-images.githubusercontent.com/31889435/226486583-8ad71e2b-1051-46b3-b00a-3880acffc413.png">
-<img width="372" alt="Unity_myS52drEnl" src="https://user-images.githubusercontent.com/31889435/226486476-768a99ad-ae6f-4609-b8f8-8537c1f2393d.png">
+<img width="372" alt="Unity_k2yhUSLugm" src="Documentation~/images/226486583-8ad71e2b-1051-46b3-b00a-3880acffc413.png">
+<img width="372" alt="Unity_myS52drEnl" src="Documentation~/images/226486476-768a99ad-ae6f-4609-b8f8-8537c1f2393d.png">
 </p>
 
 ## Installation
@@ -69,7 +69,7 @@ For further details, including the original developer's planned features, please
 ## Settings
   
 <p align="center">
- <img align="center" width="929" alt="chrome_hzlst44Z1X" src="https://user-images.githubusercontent.com/31889435/226493547-3ec3db89-bcdf-4412-b000-c90aa9ee30b7.png">
+ <img align="center" width="929" alt="chrome_hzlst44Z1X" src="Documentation~/images/226493547-3ec3db89-bcdf-4412-b000-c90aa9ee30b7.png">
 </p>
 
 There is a scriptable object that is required for hierarchy decorator to run. If it is deleted, another will be created in `Assets/HierarchyDecorator/`. These settings are also accessible from `Preferences`.
@@ -82,8 +82,8 @@ Setting design may change over time with development to support more features, o
  <summary><b>Toggles</b></summary>
   
  <p align="center">
-  <img width="915" alt="chrome_aClIcjH3wq" src="https://user-images.githubusercontent.com/31889435/226558578-78287342-711c-4b4b-acf3-18b316f3216b.gif">
-  <img width="778" height="145" alt="Unity_GYpPOVFRrv" src="https://github.com/user-attachments/assets/fac34b54-684e-4499-b68b-a572d312bbd2" />
+  <img width="915" alt="chrome_aClIcjH3wq" src="Documentation~/images/226558578-78287342-711c-4b4b-acf3-18b316f3216b.gif">
+  <img width="778" height="145" alt="Unity_GYpPOVFRrv" src="Documentation~/images/515562666-fac34b54-684e-4499-b68b-a572d312bbd2.png" />
  </p>
 
   Toggles will simply display the state of the instance, can be clicked to toggle the instance active state.
@@ -102,7 +102,7 @@ Setting design may change over time with development to support more features, o
  <summary><b>Layers</b></summary>
 
 <p align="center">
-  <img width="913" alt="chrome_szO7gPHVZ4" src="https://user-images.githubusercontent.com/31889435/226493749-b30ebd4a-bf89-4841-bde8-b78159ec6068.png">
+  <img width="913" alt="chrome_szO7gPHVZ4" src="Documentation~/images/226493749-b30ebd4a-bf89-4841-bde8-b78159ec6068.png">
 </p>
   
  Display the current layer the instance is assigned to.
@@ -118,7 +118,7 @@ Setting design may change over time with development to support more features, o
  <summary><b>Breadcrumbs</b></summary>
 
 <p align="center">
-   <img width="922" alt="chrome_DtNbO5Mimi" src="https://user-images.githubusercontent.com/31889435/226493794-e45fbb59-ec38-430a-a3ba-2cd137251f46.png">
+   <img width="922" alt="chrome_DtNbO5Mimi" src="Documentation~/images/226493794-e45fbb59-ec38-430a-a3ba-2cd137251f46.png">
 </p>
   
   Breadcrumbs will show line trails in the hierarchy, between objects to help visualise the tree. 
@@ -140,7 +140,7 @@ Setting design may change over time with development to support more features, o
  <summary><b>Background</b></summary>
  
 <p align="center">
- <img width="612" alt="chrome_Y3lak6Q0Dm" src="https://user-images.githubusercontent.com/31889435/226495114-e578f1c4-60d4-473e-8b42-b2c09c0fdeb1.png">
+ <img width="612" alt="chrome_Y3lak6Q0Dm" src="Documentation~/images/226495114-e578f1c4-60d4-473e-8b42-b2c09c0fdeb1.png">
 </p>
 
   The background can be enabled to alternate background colour between each hierarchy row. 
@@ -160,7 +160,7 @@ Setting design may change over time with development to support more features, o
   Layers and icons can be specifically disables on styles instances to remove clutter and information that is not required.
 
  <p align="center">
-  <img width="510" height="450" alt="image" src="https://github.com/user-attachments/assets/1d727086-ea26-4ea9-ad66-26873b39d6b2" alt="Style Settings"/>
+  <img width="510" height="450" alt="image" src="Documentation~/images/515563637-1d727086-ea26-4ea9-ad66-26873b39d6b2.png" alt="Style Settings"/>
  </p>
 </details>
 
@@ -169,7 +169,7 @@ Setting design may change over time with development to support more features, o
  Icons can be displayed that represent components that exist on gameobjects. This tab will provide the flexibility to specify what components can and cannot be displayed, and also allow you to automatically show all. 
 
 <p align="center">
- <img width="132" height="327" alt="Unity_emGzaT8YHM" src="https://user-images.githubusercontent.com/31889435/226554415-8bd0be96-6eb2-4217-8d56-e39d23dd7ffd.png"><img width="627" alt="Unity_iWzNrNwYKa" src="https://user-images.githubusercontent.com/31889435/226494920-6b78be6e-686d-42ac-a11f-629f270cb5bc.png">
+ <img width="132" height="327" alt="Unity_emGzaT8YHM" src="Documentation~/images/226554415-8bd0be96-6eb2-4217-8d56-e39d23dd7ffd.png"><img width="627" alt="Unity_iWzNrNwYKa" src="Documentation~/images/226494920-6b78be6e-686d-42ac-a11f-629f270cb5bc.png">
 </p>
 
 <details>
@@ -202,8 +202,8 @@ Custom components are for scripts created in the project, that are not a part of
 Scripts can also be dragged in from the project view and will be added to the group highlighted for easy organisation.
 
 <p align="center">
- <img width="40%" alt="Unity_emGzaT8YHM" src="https://user-images.githubusercontent.com/31889435/226555645-85954060-c25e-4ae8-bf5b-c7313d1188ee.gif">
- <img width="40%" alt="Unity_emGzaT8YHM" src="https://user-images.githubusercontent.com/31889435/226556916-73888fe0-b8fa-4365-88ab-18d786aa7c37.gif">
+ <img width="40%" alt="Unity_emGzaT8YHM" src="Documentation~/images/226555645-85954060-c25e-4ae8-bf5b-c7313d1188ee.gif">
+ <img width="40%" alt="Unity_emGzaT8YHM" src="Documentation~/images/226556916-73888fe0-b8fa-4365-88ab-18d786aa7c37.gif">
 </p>
 
 </details>
